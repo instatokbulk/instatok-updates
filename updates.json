@@ -6,28 +6,28 @@
     "changes": [
       {
         "type": "feature",
-        "label": "NOVO",
-        "text": "Migração completa para backend seguro na Vercel com proteção contra força bruta e credenciais protegidas."
+        "label": "SEGURANÇA",
+        "text": "Migração completa para backend seguro na Vercel, eliminando o painel estático do GitHub Pages."
       },
       {
         "type": "feature",
-        "label": "INTERFACE",
-        "text": "Botão de cópia rápida ('Copiar') com feedback visual direto para a área de transferência no painel admin."
+        "label": "COPIAR",
+        "text": "Botão de cópia rápida com feedback visual na tabela de licenças."
       },
       {
         "type": "improve",
-        "label": "SISTEMA",
-        "text": "Separação inteligente de status entre licenças 'Disponíveis', 'Em Uso' e 'Revogadas'."
+        "label": "STATUS",
+        "text": "Separação visual entre licenças 'Disponíveis', 'Em Uso' e 'Revogadas'."
       },
       {
         "type": "feature",
         "label": "FILTROS",
-        "text": "Sistema dinâmico de busca, filtros por status e ordenação cronológica no painel administrativo."
+        "text": "Filtros rápidos por estado e ordenação dinâmica por data e nome."
       },
       {
         "type": "improve",
         "label": "NOTIFICAÇÃO",
-        "text": "Verificação automática e alerta de nova versão na aba de ajustes da extensão."
+        "text": "Alerta nativo de atualização na aba de ajustes da extensão."
       }
     ]
   },
@@ -44,12 +44,12 @@
       {
         "type": "fix",
         "label": "SEGURANÇA",
-        "text": "Sanitização automática de metadados em arquivos MP4 para eliminar rastreadores."
+        "text": "Sanitização de metadados em arquivos MP4."
       },
       {
         "type": "improve",
         "label": "SISTEMA",
-        "text": "Persistência do diretório escolhido via IndexedDB para evitar seleções repetidas."
+        "text": "Persistência do diretório via IndexedDB."
       }
     ]
   }
