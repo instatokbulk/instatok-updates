@@ -21,13 +21,3 @@
     ]
   }
 ]
-{
-  "version": "2.5.0",
-  "date": "26/09/2026",
-  "title": "Titulo da Nova Atualizacao",
-  "changes": [
-    { "type": "feature", "label": "Novo", "text": "Descricao da nova funcionalidade." },
-    { "type": "improve", "label": "Melhoria", "text": "Descricao do ajuste realizado." },
-    { "type": "fix", "label": "Correcao", "text": "Descricao do erro corrigido." }
-  ]
-},
