@@ -1,25 +1,56 @@
 [
   {
-    "version": "2.4.0",
+    "version": "2.6.0",
     "date": "26/09/2026",
-    "title": "Suporte a Fotos, Carrossel Completo e Armazenamento Persistente",
+    "title": "Backend Seguro Vercel, Painel Aprimorado e Alertas",
     "changes": [
-      { "type": "feature", "label": "Novo", "text": "Suporte a download de Carrosséis completos no Instagram com download sequencial de todas as mídias." },
-      { "type": "feature", "label": "Novo", "text": "Suporte para fotos avulsas com seletor dinâmico de filtros (Todos, Apenas Vídeos, Apenas Fotos)." },
-      { "type": "improve", "label": "Melhoria", "text": "Persistência definitiva da pasta de salvamento via IndexedDB (mantém o diretório mesmo após reiniciar a máquina)." },
-      { "type": "improve", "label": "Interface", "text": "Caixas de seleção movidas para o canto superior esquerdo e botão de Reset integrado na aba Ajustes." },
-      { "type": "improve", "label": "Sistema", "text": "Padronização das comunicações de licença com termos profissionais e log automático para suporte." },
-      { "type": "feature", "label": "Novo", "text": "Botão de Notas de Atualizações integrado na aba Ajustes apontando para o site oficial." }
+      {
+        "type": "feature",
+        "label": "NOVO",
+        "text": "Migração completa para backend seguro na Vercel com proteção contra força bruta e credenciais protegidas."
+      },
+      {
+        "type": "feature",
+        "label": "INTERFACE",
+        "text": "Botão de cópia rápida ('Copiar') com feedback visual direto para a área de transferência no painel admin."
+      },
+      {
+        "type": "improve",
+        "label": "SISTEMA",
+        "text": "Separação inteligente de status entre licenças 'Disponíveis', 'Em Uso' e 'Revogadas'."
+      },
+      {
+        "type": "feature",
+        "label": "FILTROS",
+        "text": "Sistema dinâmico de busca, filtros por status e ordenação cronológica no painel administrativo."
+      },
+      {
+        "type": "improve",
+        "label": "NOTIFICAÇÃO",
+        "text": "Verificação automática e alerta de nova versão na aba de ajustes da extensão."
+      }
     ]
   },
   {
-    "version": "2.3.0",
-    "date": "25/09/2026",
-    "title": "Nova Interface em Duas Abas e Sanitização MP4",
+    "version": "2.5.0",
+    "date": "10/06/2025",
+    "title": "Download de Carrossel e Sanitização MP4",
     "changes": [
-      { "type": "feature", "label": "Novo", "text": "Organização do painel em abas dedicadas: Baixar e Ajustes." },
-      { "type": "improve", "label": "Motor", "text": "Limpeza automática de metadados binários do MP4 antes de salvar no disco." },
-      { "type": "fix", "label": "Segurança", "text": "Verificação de licença e bloqueio de dispositivos em tempo real com o sistema." }
+      {
+        "type": "feature",
+        "label": "NOVO",
+        "text": "Extração completa de carrosséis no Instagram com múltiplos slides numerados."
+      },
+      {
+        "type": "fix",
+        "label": "SEGURANÇA",
+        "text": "Sanitização automática de metadados em arquivos MP4 para eliminar rastreadores."
+      },
+      {
+        "type": "improve",
+        "label": "SISTEMA",
+        "text": "Persistência do diretório escolhido via IndexedDB para evitar seleções repetidas."
+      }
     ]
   }
 ]
