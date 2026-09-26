@@ -1,13 +1,15 @@
-﻿[
+[
   {
     "version": "2.4.0",
     "date": "26/09/2026",
     "title": "Suporte a Fotos, Carrossel Completo e Armazenamento Persistente",
     "changes": [
-      { "type": "feature", "label": "Novo", "text": "Extração e download de Carrosséis completos no Instagram." },
-      { "type": "feature", "label": "Novo", "text": "Filtro dinâmico para alternar entre Vídeos, Fotos ou Todos." },
-      { "type": "improve", "label": "Melhoria", "text": "A pasta selecionada no Desktop agora é preservada permanentemente pelo sistema." },
-      { "type": "improve", "label": "Interface", "text": "Caixas de seleção movidas para o canto superior esquerdo e botão Reset integrado na aba Ajustes." }
+      { "type": "feature", "label": "Novo", "text": "Suporte a download de Carrosséis completos no Instagram com download sequencial de todas as mídias." },
+      { "type": "feature", "label": "Novo", "text": "Suporte para fotos avulsas com seletor dinâmico de filtros (Todos, Apenas Vídeos, Apenas Fotos)." },
+      { "type": "improve", "label": "Melhoria", "text": "Persistência definitiva da pasta de salvamento via IndexedDB (mantém o diretório mesmo após reiniciar a máquina)." },
+      { "type": "improve", "label": "Interface", "text": "Caixas de seleção movidas para o canto superior esquerdo e botão de Reset integrado na aba Ajustes." },
+      { "type": "improve", "label": "Sistema", "text": "Padronização das comunicações de licença com termos profissionais e log automático para suporte." },
+      { "type": "feature", "label": "Novo", "text": "Botão de Notas de Atualizações integrado na aba Ajustes apontando para o site oficial." }
     ]
   },
   {
@@ -16,7 +18,7 @@
     "title": "Nova Interface em Duas Abas e Sanitização MP4",
     "changes": [
       { "type": "feature", "label": "Novo", "text": "Organização do painel em abas dedicadas: Baixar e Ajustes." },
-      { "type": "improve", "label": "Motor", "text": "Limpeza automática de metadados binários do MP4 antes do salvamento." },
+      { "type": "improve", "label": "Motor", "text": "Limpeza automática de metadados binários do MP4 antes de salvar no disco." },
       { "type": "fix", "label": "Segurança", "text": "Verificação de licença e bloqueio de dispositivos em tempo real com o sistema." }
     ]
   }
