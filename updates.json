@@ -3,22 +3,22 @@
     "version": "2.7.01",
     "date": "26/09/2026",
     "title": "Unificação da Central de Atualizações na Extensão",
-    "highlight": "Substituição de alertas duplicados por um centro de versão único, elegante e com limpeza automática de notificações.",
+    "highlight": "Substituição de alertas redundantes por um centro de versão único e limpeza de notificações.",
     "changes": [
       {
         "type": "improve",
         "label": "INTERFACE",
-        "text": "Unificação dos botões de novidade e notas de versão em um único card informativo na aba Ajustes."
+        "text": "Unificação dos avisos e notas em um único card limpo na aba Ajustes."
       },
       {
         "type": "feature",
         "label": "NOTIFICAÇÃO",
-        "text": "Limpeza automática: ao clicar para visualizar novidades, o badge 'NOVO' é dispensado instantaneamente."
+        "text": "Limpeza automática: ao abrir o changelog, o badge de novidade é dispensado na hora."
       },
       {
         "type": "improve",
         "label": "SISTEMA",
-        "text": "Armazenamento do status de leitura via chrome.storage para não emitir alertas repetidos da mesma versão."
+        "text": "Persistência do status lido via chrome.storage para evitar avisos repetitivos."
       }
     ]
   },
