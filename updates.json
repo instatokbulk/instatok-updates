@@ -1,4 +1,27 @@
-﻿[
+[
+  {
+    "version": "2.7.01",
+    "date": "26/09/2026",
+    "title": "Unificação da Central de Atualizações na Extensão",
+    "highlight": "Substituição de alertas duplicados por um centro de versão único, elegante e com limpeza automática de notificações.",
+    "changes": [
+      {
+        "type": "improve",
+        "label": "INTERFACE",
+        "text": "Unificação dos botões de novidade e notas de versão em um único card informativo na aba Ajustes."
+      },
+      {
+        "type": "feature",
+        "label": "NOTIFICAÇÃO",
+        "text": "Limpeza automática: ao clicar para visualizar novidades, o badge 'NOVO' é dispensado instantaneamente."
+      },
+      {
+        "type": "improve",
+        "label": "SISTEMA",
+        "text": "Armazenamento do status de leitura via chrome.storage para não emitir alertas repetidos da mesma versão."
+      }
+    ]
+  },
   {
     "version": "2.7.0",
     "date": "26/09/2026",
@@ -13,17 +36,7 @@
       {
         "type": "feature",
         "label": "INTERATIVIDADE",
-        "text": "Janela modal flutuante com animação suave para ver todos os detalhes de cada versão sem sobrecarregar a página."
-      },
-      {
-        "type": "improve",
-        "label": "ARQUIVO",
-        "text": "Histórico permanente acumulativo: todas as versões anteriores continuam acessíveis e organizadas."
-      },
-      {
-        "type": "improve",
-        "label": "NAVEGAÇÃO",
-        "text": "Suporte a atalhos: feche modais com a tecla ESC ou clicando no fundo com desfoque."
+        "text": "Janela modal flutuante com animação suave para ver todos os detalhes de cada versão."
       }
     ]
   },
@@ -36,50 +49,7 @@
       {
         "type": "feature",
         "label": "SEGURANÇA",
-        "text": "Backend seguro na Vercel com rate limiting contra força bruta e credenciais protegidas fora do código."
-      },
-      {
-        "type": "feature",
-        "label": "COPIAR",
-        "text": "Botão de cópia rápida ('Copiar') com confirmação visual em 1 clique na tabela de licenças."
-      },
-      {
-        "type": "improve",
-        "label": "STATUS",
-        "text": "Identificação visual clara entre chaves 'Disponíveis', 'Em Uso' e 'Revogadas'."
-      },
-      {
-        "type": "feature",
-        "label": "FILTROS",
-        "text": "Filtros dinâmicos por status e ordenação cronológica/alfabética no painel de administração."
-      },
-      {
-        "type": "improve",
-        "label": "NOTIFICAÇÃO",
-        "text": "Detetor de versão integrado na extensão: aviso de atualização direto na aba Ajustes."
-      }
-    ]
-  },
-  {
-    "version": "2.5.0",
-    "date": "10/06/2025",
-    "title": "Download de Carrossel e Sanitização MP4",
-    "highlight": "Extração inteligente de múltiplos slides no Instagram e remoção de metadados.",
-    "changes": [
-      {
-        "type": "feature",
-        "label": "NOVO",
-        "text": "Extração completa de carrosséis no Instagram com múltiplos slides numerados ordenadamente."
-      },
-      {
-        "type": "fix",
-        "label": "PRIVACIDADE",
-        "text": "Sanitização de metadados de vídeos MP4 para eliminar assinaturas e rastreadores nativos."
-      },
-      {
-        "type": "improve",
-        "label": "ARMAZENAMENTO",
-        "text": "Persistência do diretório escolhido via IndexedDB para evitar seleções repetidas de pastas."
+        "text": "Backend seguro na Vercel com rate limiting contra força bruta e credenciais blindadas."
       }
     ]
   }
