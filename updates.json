@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.7.03",
+    "date": "28/09/2026",
+    "title": "Lançamento da Landing Page Oficial & Monetização",
+    "highlight": "Lançamento da página oficial de vendas de alta conversão integrada à Cakto e botão de compra na extensão.",
+    "changes": [
+      {
+        "type": "feature",
+        "label": "COMERCIAL",
+        "text": "Lançamento da Landing Page oficial em dark mode com oferta vitalícia promocional."
+      },
+      {
+        "type": "feature",
+        "label": "MONETIZAÇÃO",
+        "text": "Inclusão do botão de aquisição de licença diretamente na tela de ativação da extensão."
+      },
+      {
+        "type": "improve",
+        "label": "ESTRUTURA",
+        "text": "Painel de administração realocado com segurança para a rota /admin.html."
+      }
+    ]
+  },
+  {
     "version": "2.7.02",
     "date": "28/09/2026",
     "title": "Geração em Lote no Admin e Identificador Permanente",
@@ -13,43 +36,7 @@
       {
         "type": "fix",
         "label": "ESTABILIDADE",
-        "text": "Identificador de dispositivo persistente gravado em armazenamento local permanente (nunca mais altera após reiniciar o PC)."
-      },
-      {
-        "type": "improve",
-        "label": "SUPORTE",
-        "text": "Eliminação de desvinculações involuntárias de licença para computadores de clientes."
-      }
-    ]
-  },
-  {
-    "version": "2.7.01",
-    "date": "26/09/2026",
-    "title": "Unificação da Central de Atualizações na Extensão",
-    "highlight": "Substituição de alertas redundantes por um centro de versão único e limpeza de notificações.",
-    "changes": [
-      {
-        "type": "improve",
-        "label": "INTERFACE",
-        "text": "Unificação dos avisos e notas em um único card limpo na aba Ajustes."
-      },
-      {
-        "type": "feature",
-        "label": "NOTIFICAÇÃO",
-        "text": "Limpeza automática: ao abrir o changelog, o badge de novidade é dispensado na hora."
-      }
-    ]
-  },
-  {
-    "version": "2.7.0",
-    "date": "26/09/2026",
-    "title": "Central de Atualizações Interativa & Histórico em Cards",
-    "highlight": "Nova experiência visual em cards compactos com visualizador modal fluido para cada versão.",
-    "changes": [
-      {
-        "type": "feature",
-        "label": "DESIGN",
-        "text": "Interface renovada em grade de mini-cards com microinterações e acabamento glassmorphism."
+        "text": "Identificador de dispositivo persistente gravado em armazenamento local permanente."
       }
     ]
   }
