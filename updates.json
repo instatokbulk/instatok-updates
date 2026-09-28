@@ -1,38 +1,38 @@
 [
-  {
-    "version": "2.7.04",
-    "date": "28/09/2026",
-    "title": "Refinamento Visual Dark, Checkout Cakto e Blindagem Admin",
-    "highlight": "Design escuro ajustado na landing page com checkout Cakto por R$ 37 e reforço de segurança no painel administrativo.",
-    "changes": [
-      {
-        "type": "improve",
-        "label": "DESIGN",
-        "text": "Correção de contraste e aplicação de paleta Dark SaaS na página de apresentação oficial."
-      },
-      {
-        "type": "feature",
-        "label": "COMERCIAL",
-        "text": "Integração do checkout oficial da Cakto por R$ 37,00 vitalício com entrega rápida."
-      },
-      {
-        "type": "fix",
-        "label": "SEGURANÇA",
-        "text": "Campo de credenciais limpo, cabeçalhos noindex e atualização da chave mestra do painel."
-      }
-    ]
-  },
-  {
-    "version": "2.7.03",
-    "date": "28/09/2026",
-    "title": "Lançamento da Landing Page Oficial & Monetização",
-    "highlight": "Lançamento da página oficial de vendas de alta conversão integrada à Cakto e botão de compra na extensão.",
-    "changes": [
-      {
-        "type": "feature",
-        "label": "COMERCIAL",
-        "text": "Lançamento da Landing Page oficial em dark mode com oferta vitalícia promocional."
-      }
-    ]
-  }
+    {
+        "version":  "2.7.04",
+        "date":  "28/09/2026",
+        "title":  "Refinamento Visual Dark, Painel Executivo e Protecao Admin",
+        "highlight":  "Interface em padrao Dark SaaS com metricas em tempo real, suporte a desvinculacao de PC e checkout Cakto por R$ 37.",
+        "changes":  [
+                        {
+                            "type":  "feature",
+                            "label":  "PAINEL ADMIN",
+                            "text":  "Dashboard redesenhado em abas modulares, metricas em tempo real e desvinculacao de hardware."
+                        },
+                        {
+                            "type":  "improve",
+                            "label":  "DESIGN",
+                            "text":  "Landing page corrigida em Dark SaaS com contraste otimizado e botao de compra direto na Cakto."
+                        },
+                        {
+                            "type":  "fix",
+                            "label":  "SEGURANCA",
+                            "text":  "Campo de acesso sem preenchimento automatico, headers noindex e rate limit ativo."
+                        }
+                    ]
+    },
+    {
+        "version":  "2.7.03",
+        "date":  "28/09/2026",
+        "title":  "Lançamento da Landing Page Oficial \u0026 Monetização",
+        "highlight":  "Lançamento da página oficial de vendas de alta conversão integrada à Cakto e botão de compra na extensão.",
+        "changes":  [
+                        {
+                            "type":  "feature",
+                            "label":  "COMERCIAL",
+                            "text":  "Lançamento da Landing Page oficial em dark mode com oferta vitalícia promocional."
+                        }
+                    ]
+    }
 ]
