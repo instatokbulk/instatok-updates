@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.7.02",
+    "date": "28/09/2026",
+    "title": "Geração em Lote no Admin e Identificador Permanente",
+    "highlight": "Geração de até 50 licenças simultâneas e blindagem definitiva do identificador de dispositivo vinculado.",
+    "changes": [
+      {
+        "type": "feature",
+        "label": "ADMIN",
+        "text": "Geração de licenças em lote: crie de 1 a 50 licenças com 1 clique e cópia automática da lista completa."
+      },
+      {
+        "type": "fix",
+        "label": "ESTABILIDADE",
+        "text": "Identificador de dispositivo persistente gravado em armazenamento local permanente (nunca mais altera após reiniciar o PC)."
+      },
+      {
+        "type": "improve",
+        "label": "SUPORTE",
+        "text": "Eliminação de desvinculações involuntárias de licença para computadores de clientes."
+      }
+    ]
+  },
+  {
     "version": "2.7.01",
     "date": "26/09/2026",
     "title": "Unificação da Central de Atualizações na Extensão",
@@ -14,11 +37,6 @@
         "type": "feature",
         "label": "NOTIFICAÇÃO",
         "text": "Limpeza automática: ao abrir o changelog, o badge de novidade é dispensado na hora."
-      },
-      {
-        "type": "improve",
-        "label": "SISTEMA",
-        "text": "Persistência do status lido via chrome.storage para evitar avisos repetitivos."
       }
     ]
   },
@@ -32,24 +50,6 @@
         "type": "feature",
         "label": "DESIGN",
         "text": "Interface renovada em grade de mini-cards com microinterações e acabamento glassmorphism."
-      },
-      {
-        "type": "feature",
-        "label": "INTERATIVIDADE",
-        "text": "Janela modal flutuante com animação suave para ver todos os detalhes de cada versão."
-      }
-    ]
-  },
-  {
-    "version": "2.6.0",
-    "date": "26/09/2026",
-    "title": "Backend Seguro Vercel, Painel Aprimorado e Alertas",
-    "highlight": "Migração completa da infraestrutura de gestão para backend serverless seguro na Vercel.",
-    "changes": [
-      {
-        "type": "feature",
-        "label": "SEGURANÇA",
-        "text": "Backend seguro na Vercel com rate limiting contra força bruta e credenciais blindadas."
       }
     ]
   }
