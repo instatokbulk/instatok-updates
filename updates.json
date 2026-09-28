@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.7.04",
+    "date": "28/09/2026",
+    "title": "Refinamento Visual Dark, Checkout Cakto e Blindagem Admin",
+    "highlight": "Design escuro ajustado na landing page com checkout Cakto por R$ 37 e reforço de segurança no painel administrativo.",
+    "changes": [
+      {
+        "type": "improve",
+        "label": "DESIGN",
+        "text": "Correção de contraste e aplicação de paleta Dark SaaS na página de apresentação oficial."
+      },
+      {
+        "type": "feature",
+        "label": "COMERCIAL",
+        "text": "Integração do checkout oficial da Cakto por R$ 37,00 vitalício com entrega rápida."
+      },
+      {
+        "type": "fix",
+        "label": "SEGURANÇA",
+        "text": "Campo de credenciais limpo, cabeçalhos noindex e atualização da chave mestra do painel."
+      }
+    ]
+  },
+  {
     "version": "2.7.03",
     "date": "28/09/2026",
     "title": "Lançamento da Landing Page Oficial & Monetização",
@@ -9,34 +32,6 @@
         "type": "feature",
         "label": "COMERCIAL",
         "text": "Lançamento da Landing Page oficial em dark mode com oferta vitalícia promocional."
-      },
-      {
-        "type": "feature",
-        "label": "MONETIZAÇÃO",
-        "text": "Inclusão do botão de aquisição de licença diretamente na tela de ativação da extensão."
-      },
-      {
-        "type": "improve",
-        "label": "ESTRUTURA",
-        "text": "Painel de administração realocado com segurança para a rota /admin.html."
-      }
-    ]
-  },
-  {
-    "version": "2.7.02",
-    "date": "28/09/2026",
-    "title": "Geração em Lote no Admin e Identificador Permanente",
-    "highlight": "Geração de até 50 licenças simultâneas e blindagem definitiva do identificador de dispositivo vinculado.",
-    "changes": [
-      {
-        "type": "feature",
-        "label": "ADMIN",
-        "text": "Geração de licenças em lote: crie de 1 a 50 licenças com 1 clique e cópia automática da lista completa."
-      },
-      {
-        "type": "fix",
-        "label": "ESTABILIDADE",
-        "text": "Identificador de dispositivo persistente gravado em armazenamento local permanente."
       }
     ]
   }
