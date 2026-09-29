@@ -1,5 +1,28 @@
 [
     {
+        "version":  "2.7.6",
+        "date":  "28/09/2026",
+        "title":  "Blindagem em Tempo Real no Content Script \u0026 Interface Otimizada",
+        "highlight":  "Sincronização imediata de status de licença na navegação ativa e refinamento visual da interface.",
+        "changes":  [
+                        {
+                            "type":  "security",
+                            "label":  "BLINDAGEM",
+                            "text":  "Verificação de licença implementada diretamente no content script: chaves revogadas bloqueiam o status PRO em tempo real e reativam o modo de teste."
+                        },
+                        {
+                            "type":  "ui",
+                            "label":  "INTERFACE",
+                            "text":  "Remoção de avisos redundantes no topo da barra de ferramentas, unificando a central de notas de atualização em botão dedicado."
+                        },
+                        {
+                            "type":  "feature",
+                            "label":  "SUPORTE",
+                            "text":  "Integração do modal oficial para envio de tickets e dúvidas diretamente à equipe técnica."
+                        }
+                    ]
+    },
+    {
         "version":  "2.7.5",
         "date":  "28/09/2026",
         "title":  "Blindagem em Tempo Real \u0026 Canal de Suporte",
