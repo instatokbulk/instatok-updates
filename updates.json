@@ -1,5 +1,28 @@
 [
     {
+        "version":  "2.7.5",
+        "date":  "28/09/2026",
+        "title":  "Blindagem em Tempo Real \u0026 Canal de Suporte",
+        "highlight":  "Bloqueio imediato de chaves revogadas com reativação do teste gratuito e novo canal direto para tickets de atendimento.",
+        "changes":  [
+                        {
+                            "type":  "security",
+                            "label":  "SEGURANÇA",
+                            "text":  "Verificação obrigatória em tempo real: licenças revogadas (BANNED) têm o Pro desativado e voltam ao limite de teste de 5 vídeos."
+                        },
+                        {
+                            "type":  "feature",
+                            "label":  "SUPORTE",
+                            "text":  "Formulário oficial de suporte enviando mensagens diretamente para instatokbulk@gmail.com."
+                        },
+                        {
+                            "type":  "fix",
+                            "label":  "RECUPERAÇÃO",
+                            "text":  "Correção no reenvio automático de licenças por e-mail e padronização do Manifest V3."
+                        }
+                    ]
+    },
+    {
         "version":  "2.7.04",
         "date":  "28/09/2026",
         "title":  "Refinamento Visual Dark, Painel Executivo e Protecao Admin",
