@@ -1,5 +1,28 @@
 [
     {
+        "version":  "2.7.7",
+        "date":  "28/09/2026",
+        "title":  "Blindagem Total de Sessão, Cache Inteligente e Exportação Master",
+        "highlight":  "Cache em memória para resposta ultra-rápida, contagem de teste em camada dupla e proteção definitiva de credenciais.",
+        "changes":  [
+                        {
+                            "type":  "security",
+                            "label":  "BLINDAGEM",
+                            "text":  "Armazenamento do modo de teste sincronizado em camada dupla (local storage + native chrome storage) contra reset acidental."
+                        },
+                        {
+                            "type":  "improve",
+                            "label":  "DESEMPENHO",
+                            "text":  "Implementação de CacheService no Apps Script acelerando a validação de licenças ativas."
+                        },
+                        {
+                            "type":  "feature",
+                            "label":  "PAINEL MASTER",
+                            "text":  "Exportação de relatórios em CSV com um clique e isolamento da senha mestre no backend da Vercel."
+                        }
+                    ]
+    },
+    {
         "version":  "2.7.6",
         "date":  "28/09/2026",
         "title":  "Blindagem em Tempo Real no Content Script \u0026 Interface Otimizada",
